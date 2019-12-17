@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #084035;
+    --secondary-color: white;
+}
+
+
+body, html {
+    font-family: 'Roboto Mono', monospace;
+    height: 100%;
+}
+
+.bg-primary-color {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary-color {
+    background-color: var(--secondary-color);
+}
+
+.text-primary-color {
+    color: var(--primary-color);
+}
+
+.text-secondary-color {
+    color: var(--secondary-color);
+}
+
+.btn-border-none {
+    border: none;
+}
+
+.wrap-text {
+    word-wrap: break-word;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.show {
+    -webkit-animation: slide-down 3s ease-in-out;
+    -moz-animation: slide-down 3s ease-in-out;
+    animation: slide-down 3s ease-in-out;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.d-flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-rounded {
+    border-radius: 100%;
+}
+
+.text-black-color {
+    color: black;
+}
+
+.border-top-bottom-black {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.margin-top-5 {
+    margin-top: 50px;
+}
+
+.hr-black {
+    border: 0.5px solid black;
+}
+
+.rounded-btn {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: #ccc;
+}
+
+.rounded-btn:hover {
+    background-color: #ffa31a;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 50px;
+}
+
+@-webkit-keyframes slide-down {
+    0% { opacity: 0;}   
+  100% { opacity: 1;}
+}
+@keyframes slide-down {
+    0% { opacity: 0;}   
+    100% { opacity: 1;}
+}
+@-moz-keyframes slide-down {
+    0% { opacity: 0;}   
+  100% { opacity: 1;}
+}

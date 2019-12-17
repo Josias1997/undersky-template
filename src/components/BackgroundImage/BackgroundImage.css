@@ -1,0 +1,26 @@
+.bg {
+    background-image: url("https://www.undersky.com.au/wp-content/uploads/2016/06/website-Charlie-Kinross_HR-1825-copy-1600x1067.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.bg h4 {
+    color: #084035;
+    font-weight: bolder;
+}
+.bg .intro .logo {
+    background-image: url('/images/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 110px;
+    width: 270px;
+    height: 68px;
+    margin-bottom: 14px;
+}

@@ -1,0 +1,19 @@
+.about {
+    margin: auto;
+    display: flex;
+}
+.about hr {
+    color: var(--secondary-color);
+    border: 0.5px solid var(--secondary-color);
+}
+.about .container {
+    padding: 50px 32px 90px
+}
+
+.about .container div {
+    margin-top: 50px;
+}
+
+.about .container .hidden {
+    display: none;
+}
